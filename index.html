@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- Bootsrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- My css -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .image-container img{
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+        <div class="container-fluid">
+            
+            <a href="#" class="navbar-brand">Shopping Cart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+                 
+            <div class="collapse navbar-collapse" id="myNavBar">
+                
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+
+                </ul>
+                <a href="show-cart.html">
+                    <div class="btn btn-outline-dark d-flex cart">
+                        <!-- <p>Cart</p> -->
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                        <h3 class="item-count">0</h3>
+                    </div>
+                </a>
+
+                <button class="btn btn-dark cancel">Cancel</button>
+                
+
+                
+
+
+            </div>
+        
+        </div>
+    
+    </nav>
+
+    <div class="showcase">
+        <div>
+
+            <div class="row">
+
+                <!-- <div class="card col-lg-4 col-sm-6 d-flex align-items-stretch">
+                        <img src="images/food-photographer-david-fedulov-FtpgFeUQuAY-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Veggie Noodle</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, accusantium!</p>
+                            <div class="price">
+                                <h6>₹<span class="absolute">150</span></h6>
+                            </div>
+                            <div class="card-buttons">
+                                <a href="view-item.html" class="btn btn-dark view-item">View Item</a>
+                                <a class="btn btn-outline-dark add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                </div> -->
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- js -->
+    <script src="index.js"></script>
+
+    <!-- Bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
